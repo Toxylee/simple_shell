@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0d28cc2c8e826aba11d8bc0026a5c0a31b42b3a1
 #include "shell.h"
 
 /**
@@ -60,3 +64,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	free(ptr);
 	return (p);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0d28cc2c8e826aba11d8bc0026a5c0a31b42b3a1
