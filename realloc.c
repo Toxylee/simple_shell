@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 0d28cc2c8e826aba11d8bc0026a5c0a31b42b3a1
 #include "shell.h"
 
 /**
- * _memset - fills memory with a constant byte
- * @s: the pointer to the memory area
- * @b: the byte to fill *s with
- * @n: the amount of bytes to be filled
- * Return: (s) a pointer to the memory area s
+ **_memset - fills memory with a constant byte
+ *@s: the pointer to the memory area
+ *@b: the byte to fill *s with
+ *@n: the amount of bytes to be filled
+ *Return: (s) a pointer to the memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -63,8 +59,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		p[old_size] = ((char *)ptr)[old_size];
 	free(ptr);
 	return (p);
-}
-<<<<<<< HEAD
-=======
 
->>>>>>> 0d28cc2c8e826aba11d8bc0026a5c0a31b42b3a1
+}

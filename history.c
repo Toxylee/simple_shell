@@ -140,5 +140,5 @@ int renumber_history(info_t *info)
 		node = node->next;
 	}
 	return (info->histcount = i);
-}
 
+}
